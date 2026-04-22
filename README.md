@@ -9,6 +9,10 @@ A multi-agent deal pricing and scenario analysis system built with Google ADK 1.
 <img width="1530" height="952" alt="conversation" src="https://github.com/user-attachments/assets/42e12e84-8e17-4922-94f3-f2f53ab9ba12" />
 
 
+## Demo
+[![Demo Video](https://img.youtube.com/vi/Hs51BHn9rI0/maxresdefault.jpg)](https://youtu.be/Hs51BHn9rI0)
+
+
 ## Architecture
 
 ```
