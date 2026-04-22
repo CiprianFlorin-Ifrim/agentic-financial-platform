@@ -1,0 +1,36 @@
+# environment.yml
+# Conda environment definition for the CSE Platform.
+# Creates a self-contained Python 3.11 environment with all backend dependencies.
+# Usage: conda env create -f environment.yml
+#        conda activate cse-platform
+
+name: cse-platform
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  - pip:
+    # -- Web framework --------------------------------------------------------
+    # google-adk 1.x requires fastapi>=0.115.0 -- do not pin below that.
+    - fastapi>=0.115.0
+    - uvicorn[standard]>=0.29.0
+    - python-multipart>=0.0.9       # Multipart form data (file uploads)
+    - aiofiles>=23.2.1
+
+    # -- Data -----------------------------------------------------------------
+    - pandas>=2.2.2
+    - openpyxl>=3.1.2               # Excel (.xlsx) support for pandas
+    - pydantic>=2.7.1
+
+    # -- Google ADK -----------------------------------------------------------
+    # google-generativeai is pulled in transitively by google-adk.
+    - google-adk==1.0.0
+
+    # -- Utilities ------------------------------------------------------------
+    - python-dotenv>=1.0.1
+    - httpx>=0.27.0

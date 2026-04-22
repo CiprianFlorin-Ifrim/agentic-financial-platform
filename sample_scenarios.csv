@@ -1,0 +1,4 @@
+scenario_id,loan_amount,tenor_years,interest_rate,collateral_type,client_rating,product_type
+S1,5000000,5,0.045,secured,BBB,term_loan
+S2,5000000,5,0.038,real_estate,A,term_loan
+S3,5000000,5,0.052,unsecured,BB,revolving

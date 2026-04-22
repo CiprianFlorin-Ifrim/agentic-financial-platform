@@ -1,0 +1,29 @@
+/* index.css
+   Minimal base reset -- font smoothing and margin clear.
+   All design tokens and component styles are in src/styles/theme.css. */
+
+:root {
+    font-synthesis         : none;
+    text-rendering         : optimizeLegibility;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+html {
+    background        : #161616;
+    overscroll-behavior: none;
+}
+
+body {
+    background: #161616;
+    min-width : 320px;
+    min-height: 100vh;
+}
