@@ -3,6 +3,12 @@
 A multi-agent deal pricing and scenario analysis system built with Google ADK 1.31.1, FastAPI, and React. Banking professionals upload loan scenarios as CSV files and receive ranked recommendations powered by a six-agent pipeline with real-time streaming and animated agent tracing.
 
 
+## Interface
+<img width="1530" height="952" alt="boot" src="https://github.com/user-attachments/assets/5df5c268-6a21-4091-be4f-1ac359966836" />
+<br>
+<img width="1530" height="952" alt="conversation" src="https://github.com/user-attachments/assets/42e12e84-8e17-4922-94f3-f2f53ab9ba12" />
+
+
 ## Architecture
 
 ```
